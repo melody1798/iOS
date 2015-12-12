@@ -1,0 +1,186 @@
+/* 
+  Localizable.strings
+  MEU-MELODYAPP
+
+  Created by Nancy Kashyap on 29/07/14.
+  Copyright (c) 2014 Nancy Kashyap. All rights reserved.
+*/
+"login" = "تسجيل الدخول";
+"livenow" = "يبث حاليا";
+"livetv" = "بث حى";
+"listview" = "عرض قائمة";
+"search" = "بحث";
+"No record found" = "لا يوجد محتوى";
+"no collection found" = "لا توجد مجموعة";
+"no season found" = "العثور على الموسم";
+"added to watchlist" = "أضف إلى قائمة المشاهدة";
+"ok" = "موافق";
+
+"upcoming" = "القادم";
+"watchlist" = "قائمة المشاهدة";
+"featured" = "مميز";
+"channels" = "القنوات";
+"vod" = "فيديو عند الطلب";
+"movies" = "أفلام";
+"series" = "مسلسلات";
+"music" = "أغانى";
+//"empty watchlist" = "قائمة المشاهدة خالية. اضف بعض المحتوى لقائمة المشاهدة لتتمكن من مشاهدته لاحقا";
+"empty watchlist" = "قائمة المشاهدة خالية. بامكانك اضافة اى محتوى لقائمة المشاهدة لتتمكن من مشاهدته لاحقا";
+"watchlist is empty" = "قائمة الرغبات فارغة";
+"collection" = "مجموعات";
+"collectionSmall" = "مجموعات";
+"atoz" = "أ - ى  أفلام";
+"musicatoz" = "أغانى أ - ى";
+"a-z"= "أ - ى";
+"music a-z" = "أ - ى";
+"genres" = "الفئات";
+"collections" = "مجموعات";
+"all series" = "كل المسلسلات";
+"featured episodes" = "حلقات مميزة";
+"singers" = "المطربين";
+"select season" = "اختر الموسم";
+"more info" = "معلومات أكثر";
+"add to watchlist" = "+أضف إلى قائمة المشاهدة";
+"season" = "الموسم";
+"episode" = "حلقة";
+"no episode found" = "لا توجد حلقات";
+"no video found" = "لا يوجد فيديو";
+"no result found" = "لا يوجد نتائج لبحثك";
+"share" = "شارك";
+
+
+"loginwithfacebook" = "الدخول بواسطة الفيس بووك";
+"or" = "أو";
+"email" = "البريد الإلكتروني";
+"password" = "كلمة السر";
+"forgot your password" = "هل نسيت كلمة السر";
+"login" = "تسجيل الدخول";
+"sign up" = "انشاء حساب";
+
+
+"first name" = "الأسم الأول";
+"last name" = "اسم العائلة";
+"confirm password" = "تأكيد كلمة السر";
+"month" = "شهر";
+"day" = "يوم";
+"year" = "سنه";
+"i am male" = "انا ذكر";
+"i am female" = "انا أنثى";
+"signup agreement" = "بانشاء حساب فانت موافق على سياسة الخصوصية و الشروط و الأحكام الخاصة بميلودى";
+
+"GenderText" = "النوع - اختيارى";
+"DateOfBirthText" = "تاريخ الميلاد - اختيارى";
+
+
+
+
+"signup" = "انشاء حساب";
+
+"enter email" = "أدخل بريدك";
+"cancel" = "إلغاء";
+
+"watchlist" = "قائمة المشاهدة";
+"last viewed" = "آخر مشاهدة";
+"edit" = "تعديل";
+
+"change language" = "Change language";
+"frequently ques" = "الأسئلة المتداولة";
+"terms use" = "شروط الإستخدام";
+"privacy policy" = "سياسة الخصوصية";
+"signed in as" = "مشترك بإسم";
+"send feedback" = "إرسال الملاحظات";
+"logout" = "خروج";
+
+"Please enter valid email" = "من فضلك ادخل بريد الكتروني صحيح";
+"Please enter Email" = "من فضلك ادخل البريد الإلكتروني";
+"Please check twitter settings" = "يرجى التأكد من إعدادات تويتر";
+"Please check facebook settings" = "يرجى التأكد من إعدادات الفيسبوك";
+"posted successfully" = "نشرت بنجاح";
+"post cancel" = "آخر إلغاء";
+"settings" = "الإعدادات";
+"user logged out" = "تم الخروج بنجاح";
+
+"termsofuse" = "الشروط و الأحكام";
+"privacypolicy" = "سياسة الخصوصية";
+
+"feedback" = "ردود الفعل";
+"send" = "إرسال";
+"cancel" = "إلغاء";
+"subject" = "الموضوع";
+"compose mail" = "إنشاء بريد";
+
+"min" = "د";
+"cast and crew" = "بطولة";
+"cast and crewiPhone" = "بطولة";
+"producers" = "اخراج";
+"info" = "معلومات";
+"related" = "ذات صلة";
+"home" = "الرئيسية";
+"categories" = "الأنواع";
+
+"Sn" = "ج";
+"Ep" = "ح";
+
+"packs" = "مجموعات";
+"home" = "الرئيسية";
+"done" = "تم";
+"runtime" = "مدة العرض";
+"episodes" = "حلقات";
+
+"Sunday" = "الأحد";
+"Monday" = "الأثنين";
+"Tuesday" = "الثلاثاء";
+"Wednesday" = "الأربعاء";
+"Thursday" = "الخميس";
+"Friday" = "الجمعه";
+"Saturday" = "السبت";
+
+"January"  = "يناير";
+"February" = "فبراير";
+"March" = "مارس";
+"April" = "أبريل";
+"May" = "مايو";
+"June" = "يونيو";
+"July" = "يوليو";
+"August" = "أغسطس";
+"September" = "سبتمبر";
+"October" = "أكتوبر";
+"November" = "تشرين الثاني";
+"December" = "ديسمبر";
+
+"pm" = "م";
+"am" = "ص";
+"No live show found for this channel." = "لا تظهر الحية وجدت لهذه القناة";
+"Please enter subject" = "من فضلك ادخل الموضوع";
+"Please enter content" = "الرجاء إدخال المحتوى";
+"Country not selected" = "Country not selected";
+"Search Melody" = "البحث ميلودي";
+"No related episode" = "لا حلقة ذات الصلة";
+"signup age validation" = "وينبغي أن يكون سن أكبر من 12 عاما";
+"internet connection check" = "الرجاء التحقق من اتصال الإنترنت الخاص بك";
+
+"appversion" = "نسخة التطبيق1.3";
+"I m Watching" = "أنا أشاهد";
+"on" = "على";
+
+"facebook sharing message1" = "للمزيد من الأفلام و المسلسلات الأغانى";
+"facebook sharing message2" = "برجاء تحميل تطبيق Melody Now من";
+"facebook sharing message3" = "Apple App Store أو Google Play Store";
+
+
+"facebook sharing message" = "\u200eالأغانى و المسلسلات و الأفلام من للمزيد تطبيق تحميل برجاء Melody Now \u200eمن Apple App Store \u200eأو Google Play Store";
+
+
+"Please enter First Name" = "من فضلك ادخل اسمك الأول";
+"Please enter Last Name" = "من فضلك ادخل اسم العائلة";
+"Please enter Email" = "الرجاء إدخال عنوان البريد الإلكتروني.";
+"Please enter valid Email" = "يرجى إدخال عنوان بريد إلكتروني صالح";
+"Please enter Password" = "الرجاء إدخال كلمة المرور";
+"Please enter Confirm Password" = "الرجاء تأكيد كلمة المرور دخل";
+"Password and Confirm Password does not match" = "عذرا! لا تطابق كلمة المرور.";
+"Please select gender" = "يرجى تحديد نوع الجنس";
+"Password should be between 6-20 character." =  "يجب أن تكون كلمة المرور بين 6-20 حرف.";
+"Please select date of birth" = "يرجى تاريخ الميلاد حدد";
+
+"slow server response" = "أدنى استجابة الخادم، يرجى المحاولة مرة أخرى في وقت لاحق";
+

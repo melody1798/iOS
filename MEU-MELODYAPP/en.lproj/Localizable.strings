@@ -1,0 +1,184 @@
+/* 
+  Localizable.strings
+  MEU-MELODYAPP
+
+  Created by Nancy Kashyap on 29/07/14.
+  Copyright (c) 2014 Nancy Kashyap. All rights reserved.
+*/
+"livetv" = "Live TV";
+"livenow" = "Live Now";
+"listview" = "LIST VIEW";
+"search" = "Search";
+"No record found" = "No record found";
+"no collection found" = "No collection found";
+"no episode found" = "No episode found";
+"no video found" = "No video found";
+"no result found" = "No result found";
+"no season found" = "No season found";
+"added to watchlist" = "Added to watchlist";
+
+"ok" = "Ok";
+"settings" = "Settings";
+
+"upcoming" = "Upcoming";
+"watchlist" = "Watchlist";
+"featured" = "Featured";
+"channels" = "Channels";
+"vod" = "On Demand";
+"movies" = "Movies";
+"series" = "Series";
+"music" = "Music";
+"collection" = "Collection";
+"atoz" = "Movies A To Z";
+"musicatoz" = "Music A-Z";
+"a-z" = "A-Z";
+"music a-z" = "A-Z";
+"genres" = "Genres";
+"collections" = "COLLECTIONS";
+"collectionSmall" = "Collections";
+"all series" = "All Series";
+"featured episodes" = "Featured Episodes";
+"singers" = "Singers";
+"select season" = "SELECT SEASON";
+"more info" = "MORE INFO";
+"add to watchlist" = "+ADD TO WATCHLIST";
+"season" = "Season";
+"episode" = "Episode";
+
+"share" = "Share";
+"empty watchlist" = "Your watchlist is empty. look for the plus button ( + ) to add a title to your watchlist and play it later";
+"watchlist is empty" = "Watchlist is empty";
+
+"loginwithfacebook" = "Login With Facebook";
+"or" = "Or";
+"email" = "Email";
+"password" = "Password";
+"forgot your password" = "Forgot your password?";
+"login" = "Login";
+"sign up" = "Sign Up";
+
+"first name" = "First Name";
+"last name" = "Last Name";
+"confirm password" = "Confirm Password";
+"month" = "Month";
+"day" = "Day";
+"year" = "Year";
+"i am male" = "I am a male";
+"i am female" = "I am a female";
+"signup agreement" = "By creating account, you agree to Melody's Terms of Use and Privacy Policy";
+
+
+"GenderText" = "Gender (Optional)";
+"DateOfBirthText" = "Date Of Birth (Optional)";
+
+
+"enter email" = "Enter Email";
+"cancel" = "Cancel";
+
+"last viewed" = "Last Viewed";
+"edit" = "EDIT";
+
+"change language" = "تغيير اللغة";
+"frequently ques" = "Frequently asked questions";
+"terms use" = "Terms of use";
+"privacy policy" = "Privacy policy";
+
+"signed in as" = "Signed in as";
+"send feedback" = "Send Feedback";
+"logout" = "Logout";
+
+"Please enter valid email" = "Please enter valid email";
+"Please enter Email" = "Please enter Email";
+"Please check twitter settings" = "Please check twitter settings";
+"Please check facebook settings" = "Please check facebook settings";
+"posted successfully" = "Posted successfully";
+"post cancel" = "Shared cancel";
+
+"user logged out" = "You have successfully logged out";
+
+"termsofuse" = "Terms of use";
+"privacypolicy" = "Privacy policy";
+"feedback" = "Feedback";
+"send" = "Send";
+"cancel" = "Cancel";
+"subject" = "Subject";
+"compose mail" = "Compose mail";
+
+"min" = "min";
+"cast and crew" = "Cast & Crew";
+"cast and crewiPhone" = "Cast And Crew";
+"producers" = "Director";
+"info" = "Info";
+"related" = "Related";
+"home" = "Home";
+"categories" = "Categories";
+
+"Sn" = "Sn";
+"Ep" = "Ep";
+"packs" = "Packs";
+"done" = "DONE";
+"runtime" = "Runtime";
+"episodes" = "Episodes";
+
+"Sunday" = "Sunday";
+"Monday" = "monday";
+"Tuesday" = "Tuesday";
+"Wednesday" = "Wednesday";
+"Thursday" = "Thursday";
+"Friday" = "Friday";
+"Saturday" = "Saturday";
+
+"January"  = "January";
+"February" = "February";
+"March" = "March";
+"April" = "April";
+"May" = "May";
+"June" = "June";
+"July" = "July";
+"August" = "August";
+"September" = "September";
+"October" = "October";
+"November" = "November";
+"December" = "December";
+
+
+"pm" = "PM";
+"am" = "AM";
+"م"
+= "PM";
+
+
+"ص"
+= "AM";
+
+"No live show found for this channel." = "No live show found for this channel.";
+"Please enter subject" = "Please enter subject";
+"Please enter content" = "Please enter content";
+"Country not selected" = "Melody does not have access to you location. To enable access go to: iPhone Settings > Privacy > Location Services > Melody";
+"Search Melody" = "Search Melody";
+"No related episode" = "No related episode";
+
+"signup age validation" = "Age should be greater than 12 years";
+"internet connection check" = "Please check your internet connection.";
+"appversion" = "App version: 1.3";
+"facebook sharing message" = "For more movies, series and music videos, download Melody Now app from Apple App Store or Google Play Store";
+
+
+"I m Watching" = "I'm Watching";
+"on melody now" = "on Melody Now";
+
+"Please enter First Name" = "Please enter First Name";
+"Please enter Last Name" = "Please enter Last Name";
+"Please enter Email" = "Please enter Email";
+"Please enter valid Email" = "Please enter valid Email";
+"Please enter Password" = "Please enter Password";
+"Please enter Confirm Password" = "Please enter Confirm Password";
+"Password and Confirm Password does not match" = "Password and Confirm Password does not match";
+"Please select gender" = "Please select gender";
+"Password should be between 6-20 character." =  "Password should be between 6-20 character.";
+"Please select date of birth" = "Please select date of birth";
+
+"slow server response" = "Server Response low, Please try again later";
+
+
+

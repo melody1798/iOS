@@ -1,0 +1,18 @@
+
+/* Class = "IBUIButton"; normalTitle = "Login with facebook"; ObjectID = "1Vl-3i-ppT"; */
+"1Vl-3i-ppT.normalTitle" = "Login with facebook";
+
+/* Class = "IBUIButton"; normalTitle = "Login"; ObjectID = "MSv-Jd-ks9"; */
+"MSv-Jd-ks9.normalTitle" = "Login";
+
+/* Class = "IBUITextField"; placeholder = "username"; ObjectID = "TxX-Y1-AdO"; */
+"TxX-Y1-AdO.placeholder" = "username";
+
+/* Class = "IBUITextField"; placeholder = "password"; ObjectID = "VjT-lI-tcI"; */
+"VjT-lI-tcI.placeholder" = "password";
+
+/* Class = "IBUIButton"; normalTitle = "Sign Up"; ObjectID = "av3-jr-RYQ"; */
+"av3-jr-RYQ.normalTitle" = "Sign Up";
+
+/* Class = "IBUIButton"; normalTitle = "Forgot your password?"; ObjectID = "leh-M2-aD7"; */
+"leh-M2-aD7.normalTitle" = "Forgot your password?";

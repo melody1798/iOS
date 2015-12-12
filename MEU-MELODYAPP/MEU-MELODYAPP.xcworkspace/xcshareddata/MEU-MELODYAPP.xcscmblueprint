@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4F31039E9C3385A67FDC24A6D591D908E1D7D680",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4F31039E9C3385A67FDC24A6D591D908E1D7D680" : 0,
+    "11E76B4A8B249084BFAB339B1C0AB3F9B9875C19" : 0,
+    "EC433DA33D9DD3B2D237C35005DC1E035C23B88C" : 0,
+    "17F782690A81D001A6DE548E24007364647BAAA3" : 0,
+    "75793EFA09A162BA4F1A17844A987CDF3B180B54" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "468EC7C6-D3BE-4E8C-A928-9C0D6BFE5162",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4F31039E9C3385A67FDC24A6D591D908E1D7D680" : "Melody\/",
+    "11E76B4A8B249084BFAB339B1C0AB3F9B9875C19" : "Melody\/MEU-MELODYAPP\/Connect-SDK-iOS\/core\/",
+    "EC433DA33D9DD3B2D237C35005DC1E035C23B88C" : "Melody\/MEU-MELODYAPP\/Connect-SDK-iOS\/modules\/firetv\/",
+    "17F782690A81D001A6DE548E24007364647BAAA3" : "Melody\/MEU-MELODYAPP\/Connect-SDK-iOS\/modules\/google-cast\/",
+    "75793EFA09A162BA4F1A17844A987CDF3B180B54" : "Melody\/MEU-MELODYAPP\/Connect-SDK-iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MEU-MELODYAPP",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MEU-MELODYAPP\/MEU-MELODYAPP.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ConnectSDK\/Connect-SDK-iOS-Core.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "11E76B4A8B249084BFAB339B1C0AB3F9B9875C19"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ConnectSDK\/Connect-SDK-iOS-Google-Cast.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "17F782690A81D001A6DE548E24007364647BAAA3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/LiWenCheng\/melody.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4F31039E9C3385A67FDC24A6D591D908E1D7D680"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ConnectSDK\/Connect-SDK-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "75793EFA09A162BA4F1A17844A987CDF3B180B54"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ConnectSDK\/Connect-SDK-iOS-FireTV.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EC433DA33D9DD3B2D237C35005DC1E035C23B88C"
+    }
+  ]
+}

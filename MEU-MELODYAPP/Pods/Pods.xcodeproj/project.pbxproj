@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037CBE26BAC5AFC992C34BB9 /* XCDYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 014DE1C82B89E0A0F1AF4555 /* XCDYouTubeVideo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		12DF594D4C1098BDDBC39770 /* XCDYouTubeVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 452E15C2AC94E943229FACCC /* XCDYouTubeVideoPlayerViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		231F1FB9392480538844B1FA /* XCDYouTubePlayerScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 813A9BA8D2C5539430F25631 /* XCDYouTubePlayerScript.h */; };
+		2EDC763B2856C42EE4A05CD8 /* XCDYouTubeVideoWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C7CBE5A04BFBD3899FB670 /* XCDYouTubeVideoWebpage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		33B002AC32E2479E8E0C79D4 /* XCDYouTubePlayerScript.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FBCA0A9ACE1AAF6F5CA9A4 /* XCDYouTubePlayerScript.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		33C4C5900E6364E12DCC0E21 /* Pods-MEU-MELODYAPP-XCDYouTubeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5781D086399B157F774015 /* Pods-MEU-MELODYAPP-XCDYouTubeKit-dummy.m */; };
+		409D95A7D6ABDA638F68EACA /* XCDYouTubeVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0B509F5EA014A6225A3DBB /* XCDYouTubeVideo.h */; };
+		42CBC6A45C6FE0A2D798C35B /* XCDYouTubeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4FA25EA6C2E33B84216D55 /* XCDYouTubeKit.h */; };
+		43F34DFC0F45B8BDED4FC336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B2396EDDBA1230277013D0 /* Foundation.framework */; };
+		4FA1D73B912E18EF75BBBD27 /* XCDYouTubeVideoPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 49838BD536C9C035D912D154 /* XCDYouTubeVideoPlayerViewController.h */; };
+		590F1B2A8C0B0D6EFB1DE161 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD4EE4792E3C9DDDF5CED0E /* MediaPlayer.framework */; };
+		5E675ADA7D3176926DD1E207 /* XCDYouTubeError.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E019B08826D0602C31B952 /* XCDYouTubeError.h */; };
+		658FFE83590E49FB8C0093F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B2396EDDBA1230277013D0 /* Foundation.framework */; };
+		777723D7676617C636EE7706 /* XCDYouTubeVideoOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE4C7ED32D303AC9F3F17E7 /* XCDYouTubeVideoOperation.h */; };
+		7A3AA170B75E915A3A428A6B /* XCDYouTubeVideoWebpage.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D70E4EC9B5A4A08AEAEC41 /* XCDYouTubeVideoWebpage.h */; };
+		9E29EBDCC35B0F032E19C29B /* XCDYouTubeClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4141BA462D40115D40FDE70F /* XCDYouTubeClient.h */; };
+		AFDE9653D3DC148DCE005304 /* XCDYouTubeVideoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A3D39BF91832571A5D7B71 /* XCDYouTubeVideoOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B854AF926ED051F9922030D7 /* XCDYouTubeOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A943415BB1B7545D487E7383 /* XCDYouTubeOperation.h */; };
+		D1F3ED310795DAB659B075E8 /* XCDYouTubeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C2845E2FB26D11FC332622F9 /* XCDYouTubeClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E5118EFD180F109F036E7DC2 /* XCDYouTubeVideo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D7757E66C03D88E9C9019DF /* XCDYouTubeVideo+Private.h */; };
+		ED61897E3DFBD2F0A0DE1A82 /* Pods-MEU-MELODYAPP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2756AB62E1AD13CB77224 /* Pods-MEU-MELODYAPP-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5907CD43158A9AD5B8F7017B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FAF4E105F80284FEB1E230E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14814D35C9F45DF6DA4AFDF8;
+			remoteInfo = "Pods-MEU-MELODYAPP-XCDYouTubeKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014DE1C82B89E0A0F1AF4555 /* XCDYouTubeVideo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideo.m; path = XCDYouTubeKit/XCDYouTubeVideo.m; sourceTree = "<group>"; };
+		03C7CBE5A04BFBD3899FB670 /* XCDYouTubeVideoWebpage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoWebpage.m; path = XCDYouTubeKit/XCDYouTubeVideoWebpage.m; sourceTree = "<group>"; };
+		08FD250F6CCA9E8A5CE9FEEC /* Pods-MEU-MELODYAPP-XCDYouTubeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEU-MELODYAPP-XCDYouTubeKit.xcconfig"; sourceTree = "<group>"; };
+		1FF2756AB62E1AD13CB77224 /* Pods-MEU-MELODYAPP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MEU-MELODYAPP-dummy.m"; sourceTree = "<group>"; };
+		273B50E7C39CBB8419703FD4 /* Pods-MEU-MELODYAPP-XCDYouTubeKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEU-MELODYAPP-XCDYouTubeKit-Private.xcconfig"; sourceTree = "<group>"; };
+		2A599F48E7F1A823BCA98768 /* Pods-MEU-MELODYAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEU-MELODYAPP.release.xcconfig"; sourceTree = "<group>"; };
+		2DD4EE4792E3C9DDDF5CED0E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		2E4FA25EA6C2E33B84216D55 /* XCDYouTubeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeKit.h; path = XCDYouTubeKit/XCDYouTubeKit.h; sourceTree = "<group>"; };
+		34365D24A1AD5359484C7A65 /* Pods-MEU-MELODYAPP-XCDYouTubeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MEU-MELODYAPP-XCDYouTubeKit-prefix.pch"; sourceTree = "<group>"; };
+		35D70E4EC9B5A4A08AEAEC41 /* XCDYouTubeVideoWebpage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoWebpage.h; path = XCDYouTubeKit/XCDYouTubeVideoWebpage.h; sourceTree = "<group>"; };
+		37294421C1CD03810E0B1D04 /* Pods-MEU-MELODYAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MEU-MELODYAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		4141BA462D40115D40FDE70F /* XCDYouTubeClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeClient.h; path = XCDYouTubeKit/XCDYouTubeClient.h; sourceTree = "<group>"; };
+		433C22F044C0AA278EF009E0 /* Pods-MEU-MELODYAPP-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MEU-MELODYAPP-resources.sh"; sourceTree = "<group>"; };
+		452E15C2AC94E943229FACCC /* XCDYouTubeVideoPlayerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoPlayerViewController.m; path = XCDYouTubeKit/XCDYouTubeVideoPlayerViewController.m; sourceTree = "<group>"; };
+		49838BD536C9C035D912D154 /* XCDYouTubeVideoPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoPlayerViewController.h; path = XCDYouTubeKit/XCDYouTubeVideoPlayerViewController.h; sourceTree = "<group>"; };
+		6EE4C7ED32D303AC9F3F17E7 /* XCDYouTubeVideoOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoOperation.h; path = XCDYouTubeKit/XCDYouTubeVideoOperation.h; sourceTree = "<group>"; };
+		71A3D5D908AB6992AB38C3CE /* libPods-MEU-MELODYAPP-XCDYouTubeKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MEU-MELODYAPP-XCDYouTubeKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		813A9BA8D2C5539430F25631 /* XCDYouTubePlayerScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubePlayerScript.h; path = XCDYouTubeKit/XCDYouTubePlayerScript.h; sourceTree = "<group>"; };
+		817477BB63D6BBFB12F89BC9 /* Pods-MEU-MELODYAPP-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MEU-MELODYAPP-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D54E9DE12E410A1D38F6D7D /* Pods-MEU-MELODYAPP-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MEU-MELODYAPP-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D7757E66C03D88E9C9019DF /* XCDYouTubeVideo+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCDYouTubeVideo+Private.h"; path = "XCDYouTubeKit/XCDYouTubeVideo+Private.h"; sourceTree = "<group>"; };
+		A4B2396EDDBA1230277013D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A943415BB1B7545D487E7383 /* XCDYouTubeOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeOperation.h; path = XCDYouTubeKit/XCDYouTubeOperation.h; sourceTree = "<group>"; };
+		AEC0B56E4B7503D6EB8E41EC /* libPods-MEU-MELODYAPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MEU-MELODYAPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A3D39BF91832571A5D7B71 /* XCDYouTubeVideoOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoOperation.m; path = XCDYouTubeKit/XCDYouTubeVideoOperation.m; sourceTree = "<group>"; };
+		B6FBCA0A9ACE1AAF6F5CA9A4 /* XCDYouTubePlayerScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubePlayerScript.m; path = XCDYouTubeKit/XCDYouTubePlayerScript.m; sourceTree = "<group>"; };
+		C2845E2FB26D11FC332622F9 /* XCDYouTubeClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeClient.m; path = XCDYouTubeKit/XCDYouTubeClient.m; sourceTree = "<group>"; };
+		DC0B509F5EA014A6225A3DBB /* XCDYouTubeVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideo.h; path = XCDYouTubeKit/XCDYouTubeVideo.h; sourceTree = "<group>"; };
+		E996DE9389DC31D22F610A20 /* Pods-MEU-MELODYAPP-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MEU-MELODYAPP-environment.h"; sourceTree = "<group>"; };
+		F5E019B08826D0602C31B952 /* XCDYouTubeError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeError.h; path = XCDYouTubeKit/XCDYouTubeError.h; sourceTree = "<group>"; };
+		FAD3C27217D922857F852F87 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FE5781D086399B157F774015 /* Pods-MEU-MELODYAPP-XCDYouTubeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MEU-MELODYAPP-XCDYouTubeKit-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		702D1AEA63FABE9098BC5890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658FFE83590E49FB8C0093F4 /* Foundation.framework in Frameworks */,
+				590F1B2A8C0B0D6EFB1DE161 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA612E7DF4613027A56BAAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F34DFC0F45B8BDED4FC336 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2104C9AA58081853853F0836 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45382292AA57EAAB31A97AF1 /* XCDYouTubeKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		45382292AA57EAAB31A97AF1 /* XCDYouTubeKit */ = {
+			isa = PBXGroup;
+			children = (
+				4141BA462D40115D40FDE70F /* XCDYouTubeClient.h */,
+				C2845E2FB26D11FC332622F9 /* XCDYouTubeClient.m */,
+				F5E019B08826D0602C31B952 /* XCDYouTubeError.h */,
+				2E4FA25EA6C2E33B84216D55 /* XCDYouTubeKit.h */,
+				A943415BB1B7545D487E7383 /* XCDYouTubeOperation.h */,
+				813A9BA8D2C5539430F25631 /* XCDYouTubePlayerScript.h */,
+				B6FBCA0A9ACE1AAF6F5CA9A4 /* XCDYouTubePlayerScript.m */,
+				DC0B509F5EA014A6225A3DBB /* XCDYouTubeVideo.h */,
+				014DE1C82B89E0A0F1AF4555 /* XCDYouTubeVideo.m */,
+				8D7757E66C03D88E9C9019DF /* XCDYouTubeVideo+Private.h */,
+				6EE4C7ED32D303AC9F3F17E7 /* XCDYouTubeVideoOperation.h */,
+				B4A3D39BF91832571A5D7B71 /* XCDYouTubeVideoOperation.m */,
+				49838BD536C9C035D912D154 /* XCDYouTubeVideoPlayerViewController.h */,
+				452E15C2AC94E943229FACCC /* XCDYouTubeVideoPlayerViewController.m */,
+				35D70E4EC9B5A4A08AEAEC41 /* XCDYouTubeVideoWebpage.h */,
+				03C7CBE5A04BFBD3899FB670 /* XCDYouTubeVideoWebpage.m */,
+				AE15139FD12C40B915B88C80 /* Support Files */,
+			);
+			path = XCDYouTubeKit;
+			sourceTree = "<group>";
+		};
+		7A8D5441C7F0D1D4387E7217 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C50F6AA3DAB204134089B05C /* Pods-MEU-MELODYAPP */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7C828DE873D2CFB20F5AB21E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA2977835789421AA02A0372 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CBF0A47B0F63C6228125AD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC0B56E4B7503D6EB8E41EC /* libPods-MEU-MELODYAPP.a */,
+				71A3D5D908AB6992AB38C3CE /* libPods-MEU-MELODYAPP-XCDYouTubeKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE15139FD12C40B915B88C80 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08FD250F6CCA9E8A5CE9FEEC /* Pods-MEU-MELODYAPP-XCDYouTubeKit.xcconfig */,
+				273B50E7C39CBB8419703FD4 /* Pods-MEU-MELODYAPP-XCDYouTubeKit-Private.xcconfig */,
+				FE5781D086399B157F774015 /* Pods-MEU-MELODYAPP-XCDYouTubeKit-dummy.m */,
+				34365D24A1AD5359484C7A65 /* Pods-MEU-MELODYAPP-XCDYouTubeKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MEU-MELODYAPP-XCDYouTubeKit";
+			sourceTree = "<group>";
+		};
+		C50F6AA3DAB204134089B05C /* Pods-MEU-MELODYAPP */ = {
+			isa = PBXGroup;
+			children = (
+				8D54E9DE12E410A1D38F6D7D /* Pods-MEU-MELODYAPP-acknowledgements.markdown */,
+				817477BB63D6BBFB12F89BC9 /* Pods-MEU-MELODYAPP-acknowledgements.plist */,
+				1FF2756AB62E1AD13CB77224 /* Pods-MEU-MELODYAPP-dummy.m */,
+				E996DE9389DC31D22F610A20 /* Pods-MEU-MELODYAPP-environment.h */,
+				433C22F044C0AA278EF009E0 /* Pods-MEU-MELODYAPP-resources.sh */,
+				37294421C1CD03810E0B1D04 /* Pods-MEU-MELODYAPP.debug.xcconfig */,
+				2A599F48E7F1A823BCA98768 /* Pods-MEU-MELODYAPP.release.xcconfig */,
+			);
+			name = "Pods-MEU-MELODYAPP";
+			path = "Target Support Files/Pods-MEU-MELODYAPP";
+			sourceTree = "<group>";
+		};
+		CA2977835789421AA02A0372 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A4B2396EDDBA1230277013D0 /* Foundation.framework */,
+				2DD4EE4792E3C9DDDF5CED0E /* MediaPlayer.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D09F0F7A4DE2BABAE5B6F549 = {
+			isa = PBXGroup;
+			children = (
+				FAD3C27217D922857F852F87 /* Podfile */,
+				7C828DE873D2CFB20F5AB21E /* Frameworks */,
+				2104C9AA58081853853F0836 /* Pods */,
+				7CBF0A47B0F63C6228125AD6 /* Products */,
+				7A8D5441C7F0D1D4387E7217 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D371095FADE5FF06177A9C49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E29EBDCC35B0F032E19C29B /* XCDYouTubeClient.h in Headers */,
+				5E675ADA7D3176926DD1E207 /* XCDYouTubeError.h in Headers */,
+				42CBC6A45C6FE0A2D798C35B /* XCDYouTubeKit.h in Headers */,
+				B854AF926ED051F9922030D7 /* XCDYouTubeOperation.h in Headers */,
+				231F1FB9392480538844B1FA /* XCDYouTubePlayerScript.h in Headers */,
+				E5118EFD180F109F036E7DC2 /* XCDYouTubeVideo+Private.h in Headers */,
+				409D95A7D6ABDA638F68EACA /* XCDYouTubeVideo.h in Headers */,
+				777723D7676617C636EE7706 /* XCDYouTubeVideoOperation.h in Headers */,
+				4FA1D73B912E18EF75BBBD27 /* XCDYouTubeVideoPlayerViewController.h in Headers */,
+				7A3AA170B75E915A3A428A6B /* XCDYouTubeVideoWebpage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14814D35C9F45DF6DA4AFDF8 /* Pods-MEU-MELODYAPP-XCDYouTubeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAD9378761B655DA0C3B630 /* Build configuration list for PBXNativeTarget "Pods-MEU-MELODYAPP-XCDYouTubeKit" */;
+			buildPhases = (
+				13329FBA0814DB1653CCF01A /* Sources */,
+				702D1AEA63FABE9098BC5890 /* Frameworks */,
+				D371095FADE5FF06177A9C49 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MEU-MELODYAPP-XCDYouTubeKit";
+			productName = "Pods-MEU-MELODYAPP-XCDYouTubeKit";
+			productReference = 71A3D5D908AB6992AB38C3CE /* libPods-MEU-MELODYAPP-XCDYouTubeKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7EE9202C7703AE5422BB411D /* Pods-MEU-MELODYAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CDD340F2881F62E0F3B4430 /* Build configuration list for PBXNativeTarget "Pods-MEU-MELODYAPP" */;
+			buildPhases = (
+				14354D08A931C5C18C8EBB11 /* Sources */,
+				EA612E7DF4613027A56BAAA4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				694DC3404D9E1A28F2290E4D /* PBXTargetDependency */,
+			);
+			name = "Pods-MEU-MELODYAPP";
+			productName = "Pods-MEU-MELODYAPP";
+			productReference = AEC0B56E4B7503D6EB8E41EC /* libPods-MEU-MELODYAPP.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FAF4E105F80284FEB1E230E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = AC43A96904A8297F23AB671F /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D09F0F7A4DE2BABAE5B6F549;
+			productRefGroup = 7CBF0A47B0F63C6228125AD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EE9202C7703AE5422BB411D /* Pods-MEU-MELODYAPP */,
+				14814D35C9F45DF6DA4AFDF8 /* Pods-MEU-MELODYAPP-XCDYouTubeKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13329FBA0814DB1653CCF01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C4C5900E6364E12DCC0E21 /* Pods-MEU-MELODYAPP-XCDYouTubeKit-dummy.m in Sources */,
+				D1F3ED310795DAB659B075E8 /* XCDYouTubeClient.m in Sources */,
+				33B002AC32E2479E8E0C79D4 /* XCDYouTubePlayerScript.m in Sources */,
+				037CBE26BAC5AFC992C34BB9 /* XCDYouTubeVideo.m in Sources */,
+				AFDE9653D3DC148DCE005304 /* XCDYouTubeVideoOperation.m in Sources */,
+				12DF594D4C1098BDDBC39770 /* XCDYouTubeVideoPlayerViewController.m in Sources */,
+				2EDC763B2856C42EE4A05CD8 /* XCDYouTubeVideoWebpage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14354D08A931C5C18C8EBB11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED61897E3DFBD2F0A0DE1A82 /* Pods-MEU-MELODYAPP-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		694DC3404D9E1A28F2290E4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MEU-MELODYAPP-XCDYouTubeKit";
+			target = 14814D35C9F45DF6DA4AFDF8 /* Pods-MEU-MELODYAPP-XCDYouTubeKit */;
+			targetProxy = 5907CD43158A9AD5B8F7017B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3625D7CB40A0A1D0A15A2262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37294421C1CD03810E0B1D04 /* Pods-MEU-MELODYAPP.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6E3BDB3D5E6D3A4060683CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273B50E7C39CBB8419703FD4 /* Pods-MEU-MELODYAPP-XCDYouTubeKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MEU-MELODYAPP-XCDYouTubeKit/Pods-MEU-MELODYAPP-XCDYouTubeKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		71BD2DC34E34AD2197C48984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8D4CF760E62C28147F80D719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A641A7DA5960F489E4634AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273B50E7C39CBB8419703FD4 /* Pods-MEU-MELODYAPP-XCDYouTubeKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MEU-MELODYAPP-XCDYouTubeKit/Pods-MEU-MELODYAPP-XCDYouTubeKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F26F0805430F85B02778B6DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A599F48E7F1A823BCA98768 /* Pods-MEU-MELODYAPP.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CDD340F2881F62E0F3B4430 /* Build configuration list for PBXNativeTarget "Pods-MEU-MELODYAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3625D7CB40A0A1D0A15A2262 /* Debug */,
+				F26F0805430F85B02778B6DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC43A96904A8297F23AB671F /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BD2DC34E34AD2197C48984 /* Debug */,
+				8D4CF760E62C28147F80D719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAAD9378761B655DA0C3B630 /* Build configuration list for PBXNativeTarget "Pods-MEU-MELODYAPP-XCDYouTubeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3BDB3D5E6D3A4060683CFA /* Debug */,
+				A641A7DA5960F489E4634AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FAF4E105F80284FEB1E230E /* Project object */;
+}

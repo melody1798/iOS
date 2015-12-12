@@ -1,0 +1,72 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+#import "Constant.h"
+#import "MBProgressHUD.h"
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#endif
+
+typedef enum
+{
+    tabHome = 1,
+    tabCategory = 2,
+    tabSearch = 3,
+    tabWatchList = 4,
+    tabLiveNow = 5
+}TabsBarEnum;
+
+typedef enum
+{
+    movie = 1,
+    music = 2,
+    collection = 3,
+    search = 4,
+    home = 5,
+    watchlist = 6,
+    series = 7,
+    episode = 8
+}Detailtype;
+
+
+typedef enum
+{
+    profile=0,
+    changeLanguage=1,
+    sendFeedback=2,
+    FAQ = 3,
+    logout = 6
+}Settings;
+
+
+typedef enum
+{
+    changeLanguageForGeneralUser = 1,
+    companyTermsCondition = 4,
+    companyPrivacyPolicy = 5
+
+}SettingsGeneral;
+
+#ifdef __llvm__
+#pragma GCC diagnostic ignored "-Wdangling-else"
+#endif
+
+#define IsDebugging false
+
+#if IsDebugging
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+#else
+#define DLog(...)
+
+#endif

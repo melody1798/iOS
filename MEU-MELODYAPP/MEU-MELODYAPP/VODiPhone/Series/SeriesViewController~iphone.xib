@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SeriesViewController">
+            <connections>
+                <outlet property="btnSelectSeason" destination="3d6-6T-N9F" id="fkb-nI-rzQ"/>
+                <outlet property="collView" destination="FkJ-cf-KCh" id="cgq-Vx-yCv"/>
+                <outlet property="headerView" destination="LNr-R3-HQt" id="B2F-uw-H7q"/>
+                <outlet property="imgSeries" destination="CZ8-lZ-ris" id="SLH-1E-vzu"/>
+                <outlet property="imgVwBarBg" destination="IQN-gP-Ler" id="OfZ-rW-ej6"/>
+                <outlet property="lblMusicName" destination="0CN-fd-W6f" id="bML-Sx-ugj"/>
+                <outlet property="lblNoRecordFound" destination="413-FQ-b1Z" id="q0H-8b-081"/>
+                <outlet property="lblSelectSeason" destination="A2Y-Og-IbB" id="AAT-H1-qdK"/>
+                <outlet property="lblSeriesName" destination="Wj7-ib-pkL" id="gP9-Mt-BGi"/>
+                <outlet property="segmentControl" destination="EBc-Cf-kZT" id="Pzw-xH-pux"/>
+                <outlet property="tblSeries" destination="MYP-XB-vFX" id="hrm-Xb-L5f"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="vwSeriesDetail" destination="v7p-ms-7id" id="HEo-CH-mFu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="v7p-ms-7id">
+                    <rect key="frame" x="0.0" y="65" width="320" height="405"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="live_now_bar.png" id="IQN-gP-Ler">
+                            <rect key="frame" x="0.0" y="215" width="320" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <inset key="insetFor6xAndEarlier" minX="0.0" minY="100" maxX="0.0" maxY="-100"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="CZ8-lZ-ris">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="217"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                        </imageView>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3d6-6T-N9F">
+                            <rect key="frame" x="190" y="222" width="120" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <inset key="insetFor6xAndEarlier" minX="0.0" minY="-5" maxX="0.0" maxY="-5"/>
+                            <state key="normal" backgroundImage="vod_series_drop_down~iphone">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="selectSeasonClicked:" destination="-1" eventType="touchUpInside" id="xYy-0v-SkO"/>
+                            </connections>
+                        </button>
+                        <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SELECT SEASON" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="A2Y-Og-IbB">
+                            <rect key="frame" x="190" y="227" width="94" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Wj7-ib-pkL">
+                            <rect key="frame" x="10" y="227" width="300" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                            <color key="textColor" red="0.86274509799999999" green="0.62745098040000002" blue="0.01176470588" alpha="1" colorSpace="deviceRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="none" id="FkJ-cf-KCh">
+                            <rect key="frame" x="10" y="262" width="300" height="130"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.098039215686274508" green="0.098039215686274508" blue="0.10588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                            <inset key="insetFor6xAndEarlier" minX="0.0" minY="10" maxX="0.0" maxY="-90"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="8" minimumInteritemSpacing="10" id="37a-Ac-i6J">
+                                <size key="itemSize" width="140" height="115"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <cells/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="pet-F3-8MW"/>
+                                <outlet property="delegate" destination="-1" id="a0O-jp-vIw"/>
+                            </connections>
+                        </collectionView>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" red="0.098039215690000001" green="0.1058823529" blue="0.1058823529" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="72" maxX="0.0" maxY="-72"/>
+                </view>
+                <view contentMode="scaleToFill" id="LNr-R3-HQt">
+                    <rect key="frame" x="0.0" y="65" width="320" height="51"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="live_now_bg~iphone" id="LLZ-Jc-Gy3">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="51"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <inset key="insetFor6xAndEarlier" minX="0.0" minY="0.0" maxX="0.0" maxY="20"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SERIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0CN-fd-W6f">
+                            <rect key="frame" x="10" y="12" width="302" height="35"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <inset key="insetFor6xAndEarlier" minX="0.0" minY="-10" maxX="0.0" maxY="10"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="65" maxX="0.0" maxY="-65"/>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="MYP-XB-vFX">
+                    <rect key="frame" x="10" y="160" width="300" height="315"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.098039215686274508" green="0.098039215686274508" blue="0.10588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="25" maxX="0.0" maxY="55"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="v9r-v5-7wK"/>
+                        <outlet property="delegate" destination="-1" id="yyc-Fw-Xzh"/>
+                    </connections>
+                </tableView>
+                <segmentedControl autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" id="EBc-Cf-kZT">
+                    <rect key="frame" x="10" y="116" width="302" height="29"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="75" maxX="0.0" maxY="-75"/>
+                    <segments>
+                        <segment title="ALL SERIES"/>
+                        <segment title="FEATURED EPISODES" width="120"/>
+                        <segment title="GENRES"/>
+                    </segments>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="segmentedIndexChanged" destination="-1" eventType="valueChanged" id="8Ly-MU-ezc"/>
+                    </connections>
+                </segmentedControl>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wXd-Ch-Y3x">
+                    <rect key="frame" x="223" y="118" width="89" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="75" maxX="0.0" maxY="-75"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnGenreAction:" destination="-1" eventType="touchUpInside" id="d5e-2J-YG6"/>
+                    </connections>
+                </button>
+                <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No record found." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="413-FQ-b1Z">
+                    <rect key="frame" x="10" y="302" width="300" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.098039215686274508" green="0.098039215686274508" blue="0.10588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="live_now_bar.png" width="768" height="60"/>
+        <image name="live_now_bg~iphone" width="768" height="1003"/>
+        <image name="vod_series_drop_down~iphone" width="768" height="1003"/>
+    </resources>
+</document>

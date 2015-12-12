@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>468EC7C6-D3BE-4E8C-A928-9C0D6BFE5162</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MEU-MELODYAPP</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>291D752E-FBEF-46B6-AF4E-397F3DCB283B</key>
+		<string>svn://192.168.0.2/meu/melodyap</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/IOS/10 April Nancy System/MEU-MELODYAPP/MEU-MELODYAPP.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>291D752E-FBEF-46B6-AF4E-397F3DCB283B</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>291D752E-FBEF-46B6-AF4E-397F3DCB283B</key>
+		<string>svn://192.168.0.2/meu/melodyap</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://192.168.0.2/meu/melodyap/trunk/IOS/10%20April%20Nancy%20System/MEU-MELODYAPP/MEU-MELODYAPP.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>291D752E-FBEF-46B6-AF4E-397F3DCB283B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>291D752E-FBEF-46B6-AF4E-397F3DCB283B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MELODYAP</string>
+		</dict>
+	</array>
+</dict>
+</plist>
